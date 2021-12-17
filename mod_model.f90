@@ -71,15 +71,15 @@ subroutine sMODEL_temporal(PAR,INI,INP,OUT)
     real(8):: rTER  
     integer:: iday,ihour   
 
-  associate(                                    &
-      CFLUX => OUT%CFLUX, &
-      NFLUX => OUT%NFLUX, &
-      CPOOL => OUT%CPOOL, &
-      NPOOL => OUT%NPOOL, &
-      CN    => OUT%CN   , &
+  associate(                &
+      CFLUX => OUT%CFLUX,   &
+      NFLUX => OUT%NFLUX,   &
+      CPOOL => OUT%CPOOL,   &
+      NPOOL => OUT%NPOOL,   &
+      CN    => OUT%CN   ,   &
       MNPOOL => OUT%MNPOOL, &
       MNFLUX => OUT%MNFLUX, &
-      rINP => INP%carbon & 
+      rINP => INP%carbon    & 
   )
 
 CPOOL = INI%CPOOL
