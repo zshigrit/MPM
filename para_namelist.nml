@@ -1,0 +1,13 @@
+&main_para
+    Vd=0.0299
+    KPOM=30.0
+    rMORT=0.02
+    Vsorp=1.0
+    rSorp=0.00001
+    Ksorp=1.0
+    rDesorp=0.00075
+    NUEx=0.7
+    CUEx=0.4
+    KNin=0.01
+    CNinp=30.0
+/
